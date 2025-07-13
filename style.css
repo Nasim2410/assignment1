@@ -69,3 +69,42 @@ nav {
     background-color: #FFD700; 
     color: #000; 
 }
+
+.action_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.action_title{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.action_button {
+    background-color: #4E47FF;
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.action_button:hover {
+    background-color: #FFD700; 
+    color: #000; 
+}
+
+.action_des{
+    color: #252432;
+    width: 70%;
+    opacity: 50%;
+}
+
+.action_img{
+    border-radius: 40px;
+    margin-top: -20px;
+}
