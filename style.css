@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f5f8ff;
+    padding: 0px 20px;
+}
+
 nav {
     width: 100%;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url("Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -107,4 +112,29 @@ nav {
 .action_img{
     border-radius: 40px;
     margin-top: -20px;
+}
+
+.production_user_section{
+    margin: 100px 20px;
+    background-color: #e5e7ff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.production_title{
+    padding: 60px 0px;
+    font-size: 40px;
+}
+
+.user_count{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.user_count_title1 {
+    font-size: 90px;
+    color: #4E47FF;
+    font-weight: bold;
 }
