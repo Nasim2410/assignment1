@@ -178,6 +178,20 @@ nav {
   border-radius: 50%;
 }
 
+.ready_to_section {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+
+.ready_to_title {
+  font-size: 70px;
+  padding-top: 120px;
+  font-weight: bolder;
+}
+
 .contact_section {
   display: flex;
   gap: 50px;
@@ -189,7 +203,6 @@ nav {
   font-size: 40px;
   width: 50%;
 }
-
 
 .contact_form {
   width: 50%;
@@ -228,6 +241,28 @@ textarea {
 }
 
 .form_button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.ready_to_button {
+  background-color: #4e47ff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.ready_to_image {
+    border-radius: 60px;
+}
+
+.ready_to_button:hover {
   background-color: #ffd700;
   color: #000;
 }
